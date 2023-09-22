@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+
+li{
+
+  text-decoration: none;
+  list-style-type: none;
+  
+  
+}
+
+img{
+  max-width: 50%;
+  border: 1px solid red;
+}
+
+.shoe-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  justify-content: center;
+}
